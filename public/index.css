@@ -1,0 +1,36 @@
+.websocket {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+.receive {
+}
+#receive-box {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    margin: 0 auto 24px auto;
+}
+#msg-need-send {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+}
+#send-btn {
+    border: none;
+    border-radius: 5px;
+    background: #25d1ff;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+#exit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

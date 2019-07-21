@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="websocket">
+    <div class="receive">
+      <p>服务端返回的消息</p>
+      <div id="receive-box"></div>
+    </div>
+    <div class="send">
+      <textarea type="text" id="msg-need-send"></textarea>
+      <p>
+        <button id="send-btn">点击发消息给服务端</button>
+      </p>
+    </div>
+    <button id="exit">关闭连接</button>
+  </div>
+</body>
+</html>
+<script src="./websocket.js"></script>
